@@ -7,12 +7,5 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.wujinpeng.intellijplatformpluginclickablehyperlink.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.wujinpeng.intellijplatformpluginclickablehyperlink.services.MyProjectService"/>
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.wujinpeng.intellijplatformpluginclickablehyperlink.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>
